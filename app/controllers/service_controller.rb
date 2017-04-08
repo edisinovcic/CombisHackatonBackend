@@ -10,6 +10,11 @@ class ServiceController < ActionController::API
   end
 
   def create
+    parsed_json = ActiveSupport::JSON.decode(params[:user_id])
+    parsed_json[]
+    @service = Service.new(params[:user_id])
+
+
 
   end
 
@@ -18,7 +23,6 @@ class ServiceController < ActionController::API
   end
 
   def update
-
   end
 
   def destroy
