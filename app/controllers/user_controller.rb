@@ -13,4 +13,5 @@ class UserController < ActionController::API
     user = User.find(params[:id])
     render json: user
   end
+
 end
