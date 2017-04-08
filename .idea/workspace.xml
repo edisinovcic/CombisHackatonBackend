@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f00df74-de56-440c-9df7-c02f59513f99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/8ae60b43-b4f3-4c88-9e50-dff9169c3719/_metadata_/metadata.values.at" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__CombisHackatonBackend.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__CombisHackatonBackend.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec__CombisHackatonBackend.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test__CombisHackatonBackend.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8ae60b43-b4f3-4c88-9e50-dff9169c3719/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/8ae60b43-b4f3-4c88-9e50-dff9169c3719/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8ae60b43-b4f3-4c88-9e50-dff9169c3719/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/8ae60b43-b4f3-4c88-9e50-dff9169c3719/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8ae60b43-b4f3-4c88-9e50-dff9169c3719/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/8ae60b43-b4f3-4c88-9e50-dff9169c3719/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8ae60b43-b4f3-4c88-9e50-dff9169c3719/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/8ae60b43-b4f3-4c88-9e50-dff9169c3719/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8ae60b43-b4f3-4c88-9e50-dff9169c3719/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/8ae60b43-b4f3-4c88-9e50-dff9169c3719/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8ae60b43-b4f3-4c88-9e50-dff9169c3719/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/8ae60b43-b4f3-4c88-9e50-dff9169c3719/_metadata_/metadata_i.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -362,12 +350,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491652530375</updated>
       <workItem from="1491652533107" duration="6556000" />
-      <workItem from="1491663279092" duration="248000" />
+      <workItem from="1491663279092" duration="413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6804000" />
+    <option name="totallyTimeSpent" value="6969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="7" />
