@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :user, only: [:index, :show] do
     resources :service do
       resources :reserve
+      resources :review
     end
   end
 

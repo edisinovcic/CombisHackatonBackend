@@ -16,6 +16,7 @@ class ReserveController < ApplicationController
     reserve.amount = params[:amount]
     reserve.date = params[:date]
     reserve.status = params[:status]
+    reserve.save
   end
 
   def new
