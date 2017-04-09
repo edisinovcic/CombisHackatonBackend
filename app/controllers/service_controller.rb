@@ -1,11 +1,11 @@
 class ServiceController < ActionController::API
   def index
-    @services = User.find(params[:id]).services.all
+    @services = User.find(params[:user_id]).services.all
     render json: @services
   end
 
   def show
-    @service = User.find(params[:id]).services(params[:id])
+    @service = User.find(params[:user_id]).services(params[:id])
     render json: @service
   end
 
