@@ -9,5 +9,6 @@ class CreateReserves < ActiveRecord::Migration[5.0]
       t.string  :status
       t.timestamps
     end
+    self.primary_key = "id_reverse"
   end
 end

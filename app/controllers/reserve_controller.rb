@@ -11,14 +11,18 @@ class ReserveController < ApplicationController
 
   def create
     reserve = Reserve.new
-    reserve.id_reserve = params[:id_reserve]
+    #reserve.id_reserve = params[:id_reserve]
     reserve.id_user = params[:id_user]
     reserve.id_service = params[:id_service]
     reserve.amount = params[:amount]
     reserve.date = params[:date]
     reserve.status = params[:status]
     puts reserve.to_json
+    #@reserves = User.find(reserve.id_user).services.find(reserve.id_service).reserve.all
+    #reserve.id = @reserves.size + 1
+    reserve.errors.full_messages
     reserve.save
+    puts reserve.id
     puts "Saveano"
   end
 

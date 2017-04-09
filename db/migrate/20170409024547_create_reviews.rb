@@ -8,5 +8,6 @@ class CreateReviews < ActiveRecord::Migration[5.0]
       t.integer :grade
       t.timestamps
     end
+    set_primary_key = "id_review"
   end
 end
