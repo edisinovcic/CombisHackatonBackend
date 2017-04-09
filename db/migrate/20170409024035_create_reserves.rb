@@ -5,7 +5,7 @@ class CreateReserves < ActiveRecord::Migration[5.0]
       t.integer :id_user
       t.integer :id_service
       t.float   :amount
-      t.date    :date
+      t.string  :date
       t.string  :status
       t.timestamps
     end

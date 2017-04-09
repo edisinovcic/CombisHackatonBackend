@@ -1,12 +1,11 @@
 class ReviewController < ApplicationController
-  class ReserveController < ApplicationController
     def index
-      @reviews = User.find(params[:user_id]).services(params[:id]).reviews.all
+      @reviews = User.find(params[:id]).services(params[:id]).reviews.all
       render json: @reviews
     end
 
     def show
-      @review = User.find(params[:user_id]).services(params[:id]).reviews(params[:id])
+      @review = User.find(params[:user_id]).services(params[:service_id]).reviews(params[:id])
       render json: @review
     end
 
@@ -31,10 +30,6 @@ class ReviewController < ApplicationController
     def delete
 
     end
-
-
-
-  end
 
 
 
