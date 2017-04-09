@@ -3,5 +3,7 @@ Rails.application.routes.draw do
   resources :user, only: [:index, :show] do
     resources :service
   end
+
+  get '/get-user', to: 'user#get_user_id'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

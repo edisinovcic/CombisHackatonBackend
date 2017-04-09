@@ -141,6 +141,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   devise_token_auth
+  hashie
   listen (~> 3.0.5)
   omniauth
   pg (~> 0.18)

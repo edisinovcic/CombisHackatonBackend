@@ -14,4 +14,9 @@ class UserController < ActionController::API
     render json: user
   end
 
+  def get_user_id
+    user = User.find_by_email(params[:email])
+    render json: user
+  end
+
 end

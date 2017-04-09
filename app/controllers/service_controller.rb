@@ -10,11 +10,14 @@ class ServiceController < ActionController::API
   end
 
   def create
-    parsed_json = ActiveSupport::JSON.decode(params[:user_id])
-    parsed_json[]
-    @service = Service.new(params[:user_id])
-
-
+    service = Service.new
+    service.user_id = params[:user_id]
+    service.availability = params[:availability]
+    service.description = params[:description]
+    service.reservation_type = params[:reservation_type]
+    service.title = params[:title]
+    service.service_id = 1
+    service.save
 
   end
 
