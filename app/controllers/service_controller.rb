@@ -18,7 +18,6 @@ class ServiceController < ActionController::API
     service.title = params[:title]
     service.service_id = 1
     service.save
-
   end
 
   def new
